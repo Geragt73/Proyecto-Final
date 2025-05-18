@@ -6,7 +6,6 @@
 
 /** Productos */
 
-
 .hero-image {
 
     min-height: 25rem;
@@ -18,10 +17,6 @@
 }
 .hero-image div{
     min-height: inherit;
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: center; */
-    /* align-items: center; */
     background-color: rgba(0, 0, 0, 0.567);
 }
 .button{
@@ -32,7 +27,6 @@
     transform:scale(1.1) !important;
 }
 .primary{
-   /* color:rgb(62, 134, 241)!important;*/
    color: #037BC0 !important;
 }
 .bg-primary{ 
@@ -50,16 +44,13 @@
 .redondeo{
     border-radius: 10px;
 }
-
 .box{
     transition: 1s !important;
 }
 .box image{
     display:block !important;
-    width:100% !important;
-    
+    width:100% !important;  
 }
 .box:hover{
-    transform:scale(1.12) !important;
-   
+    transform:scale(1.12) !important;  
 }
